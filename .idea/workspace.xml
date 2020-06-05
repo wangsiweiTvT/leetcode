@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e5f6d22-7114-4895-a374-068f8212833f" name="Default Changelist" comment="" />
+    <list default="true" id="1e5f6d22-7114-4895-a374-068f8212833f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wsw/test/Atomtest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wsw/test/Atomtest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +32,10 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="PATH_TO_GIT" value="D:\users\wsw\Git\bin\git.exe" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -46,6 +54,7 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectId" id="1cTQApXQC9RRP9gUes0Oo6leeAX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -53,13 +62,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunManager" selected="Application.OOMTest">
     <configuration name="Atomtest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -167,12 +177,22 @@
       <updated>1590549962308</updated>
       <workItem from="1590549965466" duration="9336000" />
       <workItem from="1590629977830" duration="6802000" />
-      <workItem from="1590718437567" duration="57192000" />
+      <workItem from="1590718437567" duration="58429000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="270" y="30" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591255129076">
@@ -191,30 +211,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="498" y="196" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1591254348186" />
+    <state x="556" y="50" width="858" height="773" key="CommitChangelistDialog2" timestamp="1591342668556">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="556" y="50" width="858" height="773" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1591342668556" />
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1591342481803">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1591342481803" />
     <state x="550" y="136" key="EnvironmentVariablesDialog" timestamp="1591254778769">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="550" y="136" key="EnvironmentVariablesDialog/0.0.1536.824@0.0.1536.824" timestamp="1591254778769" />
-    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1590631594210">
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1591341999117">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1590631594210" />
-    <state width="1493" height="172" key="GridCell.Tab.0.bottom" timestamp="1591338936446">
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1591341999117" />
+    <state width="1493" height="184" key="GridCell.Tab.0.bottom" timestamp="1591342132152">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="172" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591338936446" />
-    <state width="1493" height="172" key="GridCell.Tab.0.center" timestamp="1591338936446">
+    <state width="1493" height="184" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591342132152" />
+    <state width="1493" height="184" key="GridCell.Tab.0.center" timestamp="1591342132152">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="172" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591338936446" />
-    <state width="1493" height="172" key="GridCell.Tab.0.left" timestamp="1591338936446">
+    <state width="1493" height="184" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591342132152" />
+    <state width="1493" height="184" key="GridCell.Tab.0.left" timestamp="1591342132152">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="172" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591338936446" />
-    <state width="1493" height="172" key="GridCell.Tab.0.right" timestamp="1591338936446">
+    <state width="1493" height="184" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591342132152" />
+    <state width="1493" height="184" key="GridCell.Tab.0.right" timestamp="1591342132152">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="172" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591338936446" />
+    <state width="1493" height="184" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591342132152" />
     <state width="1493" height="175" key="GridCell.Tab.1.bottom" timestamp="1591171969926">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -231,5 +259,13 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="175" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1591171969926" />
+    <state x="270" y="55" key="SettingsEditor" timestamp="1591342017950">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1591342017950" />
+    <state x="562" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591342149672">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="562" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1591342149672" />
   </component>
 </project>

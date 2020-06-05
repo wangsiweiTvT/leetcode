@@ -4,7 +4,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 public class Atomtest {
 
-
+    //测试IDEA集成git
     private static volatile int i=0;
     private static AtomicInteger ati=new AtomicInteger(0);
     private static final int THREAD_COUNT=10;
