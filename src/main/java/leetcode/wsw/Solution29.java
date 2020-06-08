@@ -4,7 +4,7 @@ public class Solution29 {
 
 
     public static void main(String[] args) {
-         int[][] matix={{1,2,3},{4,5,6},{7,8,9}};
+         int[][] matix={{1,2,3,4},{5,6,7,8},{9,10,11,12}};
         int[] ints = new Solution29().spiralOrder(matix);
 
     }
@@ -39,6 +39,6 @@ public class Solution29 {
         else for (int r=row+1;r<=matrix.length-2-row;r++) res[i++]=matrix[r][matrix[0].length-1-column];
         for (int c=matrix[0].length-1-column;c>=column;c--) res[i++]=matrix[matrix.length-1-row][c];
         if (row+1==matrix.length-1-row);
-        else for (int r=matrix.length-1-row;r>=row+1;r--) res[i++]=matrix[r][column];
+        else for (int r=matrix.length-2-row;r>=row+1;r--) res[i++]=matrix[r][column];
     }
 }
