@@ -81,7 +81,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Application.Solution1">
+  <component name="RunManager" selected="Application.Solution297">
     <configuration name="OOMTest" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="C:\Java\jdk1.8.0_131\jre" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -94,6 +94,19 @@
     </configuration>
     <configuration name="Solution1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.wsw.Solution1" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.wsw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution297" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.wsw.Solution297" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -144,34 +157,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution990" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.wsw.Solution990" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.wsw.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.OOMTest" />
-      <item itemvalue="Application.Solution990" />
       <item itemvalue="Application.Solution46" />
       <item itemvalue="Application.Solution9" />
       <item itemvalue="Application.Solution739" />
       <item itemvalue="Application.Solution1" />
+      <item itemvalue="Application.Solution297" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution297" />
         <item itemvalue="Application.Solution1" />
         <item itemvalue="Application.Solution739" />
         <item itemvalue="Application.Solution9" />
         <item itemvalue="Application.Solution46" />
-        <item itemvalue="Application.Solution990" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +188,7 @@
       <workItem from="1590549965466" duration="9336000" />
       <workItem from="1590629977830" duration="6802000" />
       <workItem from="1590718437567" duration="97634000" />
-      <workItem from="1591752188114" duration="16278000" />
+      <workItem from="1591752188114" duration="23020000" />
     </task>
     <task id="LOCAL-00001" summary="IDEA+git">
       <created>1591342756595</created>
@@ -246,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591846235360</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="20200612 简单的两数和，使用hashmap降低时间复杂度。">
+      <created>1591941539347</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1591941539347</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,7 +290,8 @@
     <MESSAGE value="46动态规划，偏简单，不知道为什么定义成中等难度" />
     <MESSAGE value="20200610简单回文数" />
     <MESSAGE value="20200611 反向跳跃遍历有点像跳表。" />
-    <option name="LAST_COMMIT_MESSAGE" value="20200611 反向跳跃遍历有点像跳表。" />
+    <MESSAGE value="20200612 简单的两数和，使用hashmap降低时间复杂度。" />
+    <option name="LAST_COMMIT_MESSAGE" value="20200612 简单的两数和，使用hashmap降低时间复杂度。" />
   </component>
   <component name="WindowStateProjectService">
     <state x="270" y="30" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591255129076">
@@ -302,10 +310,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="498" y="196" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1591254348186" />
-    <state x="556" y="50" width="858" height="773" key="CommitChangelistDialog2" timestamp="1591846234317">
+    <state x="556" y="50" width="858" height="773" key="CommitChangelistDialog2" timestamp="1591941538206">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="556" y="50" width="858" height="773" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1591846234317" />
+    <state x="556" y="50" width="858" height="773" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1591941538206" />
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1591342481803">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -318,46 +326,46 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1591341999117" />
-    <state width="1493" height="111" key="GridCell.Tab.0.bottom" timestamp="1591941145760">
+    <state width="1493" height="110" key="GridCell.Tab.0.bottom" timestamp="1592303398327">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="111" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591941145760" />
-    <state width="1493" height="111" key="GridCell.Tab.0.center" timestamp="1591941145760">
+    <state width="1493" height="110" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592303398327" />
+    <state width="1493" height="110" key="GridCell.Tab.0.center" timestamp="1592303398327">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="111" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591941145760" />
-    <state width="1493" height="111" key="GridCell.Tab.0.left" timestamp="1591941145759">
+    <state width="1493" height="110" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1592303398327" />
+    <state width="1493" height="110" key="GridCell.Tab.0.left" timestamp="1592303398327">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="111" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591941145759" />
-    <state width="1493" height="111" key="GridCell.Tab.0.right" timestamp="1591941145760">
+    <state width="1493" height="110" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1592303398327" />
+    <state width="1493" height="110" key="GridCell.Tab.0.right" timestamp="1592303398327">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="111" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591941145760" />
-    <state width="1493" height="111" key="GridCell.Tab.1.bottom" timestamp="1591941146049">
+    <state width="1493" height="110" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1592303398327" />
+    <state width="1493" height="200" key="GridCell.Tab.1.bottom" timestamp="1592302769299">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="111" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591941146049" />
-    <state width="1493" height="111" key="GridCell.Tab.1.center" timestamp="1591941146049">
+    <state width="1493" height="200" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592302769299" />
+    <state width="1493" height="200" key="GridCell.Tab.1.center" timestamp="1592302769299">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="111" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1591941146049" />
-    <state width="1493" height="111" key="GridCell.Tab.1.left" timestamp="1591941146049">
+    <state width="1493" height="200" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1592302769299" />
+    <state width="1493" height="200" key="GridCell.Tab.1.left" timestamp="1592302769299">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="111" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1591941146049" />
-    <state width="1493" height="111" key="GridCell.Tab.1.right" timestamp="1591941146049">
+    <state width="1493" height="200" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1592302769299" />
+    <state width="1493" height="200" key="GridCell.Tab.1.right" timestamp="1592302769299">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="111" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1591941146049" />
+    <state width="1493" height="200" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1592302769299" />
     <state x="270" y="55" key="SettingsEditor" timestamp="1591342017950">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1591342017950" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1591846244382">
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1591941545651">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1591846244382" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1591941545651" />
     <state x="449" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1591752210826">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
