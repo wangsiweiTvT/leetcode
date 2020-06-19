@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e5f6d22-7114-4895-a374-068f8212833f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/wsw/Solution1014.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/wsw/Solution1014.java" afterDir="false" />
-    </list>
+    <list default="true" id="1e5f6d22-7114-4895-a374-068f8212833f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -190,7 +187,7 @@
       <workItem from="1590629977830" duration="6802000" />
       <workItem from="1590718437567" duration="97634000" />
       <workItem from="1591752188114" duration="23988000" />
-      <workItem from="1592357076300" duration="11893000" />
+      <workItem from="1592357076300" duration="12852000" />
     </task>
     <task id="LOCAL-00001" summary="IDEA+git">
       <created>1591342756595</created>
@@ -269,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592364125547</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="20200619 递归跳过非数字字母字符">
+      <created>1592530635709</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1592530635709</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,7 +313,8 @@
     <MESSAGE value="20200612 简单的两数和，使用hashmap降低时间复杂度。" />
     <MESSAGE value="20200616 下班之前搞一发,搞完下班" />
     <MESSAGE value="20200617 动态规划，但不完全是。需要转换一下表达式。" />
-    <option name="LAST_COMMIT_MESSAGE" value="20200617 动态规划，但不完全是。需要转换一下表达式。" />
+    <MESSAGE value="20200619 递归跳过非数字字母字符" />
+    <option name="LAST_COMMIT_MESSAGE" value="20200619 递归跳过非数字字母字符" />
   </component>
   <component name="WindowStateProjectService">
     <state x="270" y="30" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591255129076">
@@ -328,10 +333,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="498" y="196" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1591254348186" />
-    <state x="556" y="50" width="858" height="773" key="CommitChangelistDialog2" timestamp="1592364124331">
+    <state x="355" y="62" width="858" height="695" key="CommitChangelistDialog2" timestamp="1592530634505">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="556" y="50" width="858" height="773" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1592364124331" />
+    <state x="355" y="62" width="858" height="695" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1592530634505" />
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1591342481803">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -380,10 +385,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1591342017950" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1592364133652">
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1592530644704">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1592364133652" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1592530644704" />
     <state x="449" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1591752210826">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
